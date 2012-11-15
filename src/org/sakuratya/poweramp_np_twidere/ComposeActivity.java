@@ -87,7 +87,7 @@ public class ComposeActivity extends Activity {
 		mTrackTitlePreview.setText(mTrackTitle);
 		mTrackArtistPreview.setText(mTrackArtist);
 		mTrackAlbumPreview.setText(mTrackAlbum);
-		mTextPending = "#NowPlaying " + mTrackArtist + mTrackTitle;
+		mTextPending = "#NowPlaying " + mTrackArtist + " - "+ mTrackTitle;
 		mTextPendingPreview.setText(mTextPending);
 	}
 
