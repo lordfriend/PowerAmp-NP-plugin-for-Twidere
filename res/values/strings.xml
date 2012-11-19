@@ -4,5 +4,17 @@
     <string name="append_text">Append To Tweet</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">PowerAmp-NP-plugin-for-Twidere</string>
-
+    <!-- strings for SettingsActivity -->
+    <string name="show_preview_on">Show preview preview page before insert NowPlaying message</string>
+	<string name="show_preview">Show preview</string>
+	<string name="show_preview_summaryoff">The preivew will be skiped</string>
+	<string name="np_text_format">NowPlaying text format</string>
+	<string name="np_text_format_summary">Define your own nowplaying text format \n [title] - The title of current track. \n [artitst] - The artist of current track. \n [album] - The album name of current track.</string>
+	<string name="np_text_format_default">#Nowplaying [artist] - [title]</string>
+	<string name="error_loading_text">Fail to load preference.</string>
+	<!-- strings for ComposeActivity -->
+	<string name="track_title">Track title</string>
+	<string name="track_artist">Track Artist</string>
+	<string name="track_album">Track Album</string>
+	<string name="final_text">Final text</string>
 </resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference
+        android:key="setting_show_preview"
+        android:title="@string/show_preview"
+        android:summaryOff="@string/show_preview_summaryoff"
+        android:summaryOn="@string/show_preview_on"
+        android:defaultValue="true"/>
+    <EditTextPreference
+        android:key="setting_np_text_format"
+        android:title="@string/np_text_format"
+        android:summary="@string/np_text_format_summary"
+        android:defaultValue="@string/np_text_format_default"/>
+</PreferenceScreen>
