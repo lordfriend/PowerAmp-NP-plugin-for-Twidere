@@ -13,6 +13,8 @@ public class SettingsActivity extends PreferenceActivity implements OnSharedPref
 	
 	public static final String SETTING_NP_TEXT_FORMAT = "setting_np_text_format";
 	public static final String SETTING_SHOW_PREVIEW = "setting_show_preview";
+	public static final String SETTING_INSERT_ALBUMART = "setting_insert_albumart";
+	public static final String SETTING_ALBUMART_FORMAT = "setting_albumart_format";
 
 	@SuppressWarnings("deprecation")
 	@Override

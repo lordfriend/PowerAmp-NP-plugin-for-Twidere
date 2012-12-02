@@ -8,13 +8,23 @@
     <string name="show_preview_on">Show preview preview page before insert NowPlaying message</string>
 	<string name="show_preview">Show preview</string>
 	<string name="show_preview_summaryoff">The preivew will be skiped</string>
+	<string name="enable_insert_albumart">Insert albm art</string>
+	<string name="enable_insert_albumart_desc">Insert album art into Nowplaying info</string>
 	<string name="np_text_format">NowPlaying text format</string>
 	<string name="np_text_format_summary">Define your own nowplaying text format \n [title] - The title of current track. \n [artitst] - The artist of current track. \n [album] - The album name of current track.</string>
 	<string name="np_text_format_default">#Nowplaying [artist] - [title]</string>
 	<string name="error_loading_text">Fail to load preference.</string>
+	<string name="pref_album_art_settings">ALBUM ART</string>
+	<string name="album_art_format">Album Art format</string>
+	<string name="album_art_format_summary">Define album art show be uploaded with which format</string>
+	<string name="insert_albumart">Insert Album art(this will not override you settings)</string>
 	<!-- strings for ComposeActivity -->
 	<string name="track_title">Track title</string>
 	<string name="track_artist">Track Artist</string>
 	<string name="track_album">Track Album</string>
-	<string name="final_text">Final text</string>
+	<string name="final_text">Final Text</string>
+	<string name="album_art">Album Art</string>
+	<string name="wait_for_loading">Waiting for loading</string>
+	<string name="sd_not_found">SDCard not found!</string>
+	
 </resources>

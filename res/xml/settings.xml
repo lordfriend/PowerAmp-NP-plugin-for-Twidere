@@ -11,4 +11,22 @@
         android:title="@string/np_text_format"
         android:summary="@string/np_text_format_summary"
         android:defaultValue="@string/np_text_format_default"/>
+    <PreferenceCategory
+        android:title="@string/pref_album_art_settings"
+        android:key="album_art_settings_group">
+        <CheckBoxPreference 
+	        android:key="setting_insert_albumart"
+	        android:title="@string/enable_insert_albumart"
+	        android:summary="@string/insert_albumart"
+	        android:defaultValue="false"/>
+        <ListPreference 
+            android:key="setting_albumart_format"
+            android:title="@string/album_art_format"
+            android:dependency="setting_show_albumart"
+            android:entries="@array/album_art_format_entries"
+            android:entryValues="@array/album_art_format_entry_values"
+            android:summary="@string/album_art_format_summary"/>
+    </PreferenceCategory>
+    
+    
 </PreferenceScreen>

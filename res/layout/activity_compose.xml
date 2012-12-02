@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/track_title"
-        android:textSize="20sp"/>
+        android:textSize="18sp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/track_artist"
-        android:textSize="20sp"/>
+        android:textSize="18sp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/track_album"
-        android:textSize="20sp"/>
+        android:textSize="18sp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,7 +43,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/text_pending"
-        android:textSize="20sp"/>
+        android:textSize="18sp"/>
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/album_art"
+        android:textSize="14sp"/>
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/album_art_preview"
+        android:src="@drawable/no_image"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/insert_albumart"
+        android:text="@string/insert_albumart"
+        android:textSize="18sp"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
